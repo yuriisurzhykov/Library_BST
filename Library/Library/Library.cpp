@@ -5,9 +5,12 @@ using namespace std;
 
 int main() {
 
-	while (true) {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
 
-	}
+	for (int i = 0; i < 3; i++)
+		InputData();
+	PrintTree(root);
 
 	return 0;
 }
